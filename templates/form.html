@@ -3,7 +3,7 @@
 {%block content%}
 <form action="/story">
     {% for prompt in prompts %}
-    <label>{{prompt}}:</label><input name="{{prompt}}">
+    <label>{{prompt}}:</label><input name="{{prompt}}"><br><br>
     {% endfor %}
     <button>Submit</button>
 </form>
